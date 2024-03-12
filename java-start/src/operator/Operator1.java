@@ -1,15 +1,14 @@
-package operator;
+package Operator;
 
 public class Operator1 {
-
     public static void main(String[] args) {
-        //변수 초기화
+
         int a = 5;
         int b = 2;
 
         // 덧셈
         int sum = a + b;
-        System.out.println("a + b = " + sum); //출력 a + b = 7
+        System.out.println("a + b = " + sum);
 
         // 뺄셈
         int diff = a - b;
@@ -27,4 +26,5 @@ public class Operator1 {
         int mod = a % b;
         System.out.println("a % b = " + mod);
     }
+
 }
