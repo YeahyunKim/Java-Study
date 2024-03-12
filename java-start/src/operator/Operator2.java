@@ -3,10 +3,25 @@ package Operator;
 public class Operator2 {
     public static void main(String[] args) {
 
-        //
-        String result1 = "hello " + "world!";
-
+        // 1. 문자열과 문자열 더하기
+        String result1 = "hello" + " World!";
         System.out.println(result1);
+
+        // 2. 문자열과 문자열 더하기
+        String s1 = "string1";
+        String s2 = "string2";
+        String result2 = s1 + s2;
+        System.out.println(result2);
+
+        // 3. 문자열과 숫자 더하기
+        String result3 = "a + b = " + 10;
+        System.out.println(result3);
+
+        // 4. 문자열과 숫자 더하기
+        int num = 20;
+        String str = "a + b = ";
+        String result4 = str + num;
+        System.out.println(result4);
 
     }
 }
