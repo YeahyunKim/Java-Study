@@ -21,7 +21,7 @@ public class ScoreEx5 {
             case "F" -> "불합격 입니다.";
             default -> "잘못된 학점입니다.";
         };
-        
+
         System.out.println(result);
 
 
