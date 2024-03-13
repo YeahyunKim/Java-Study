@@ -1,24 +1,29 @@
 package Cond.ex;
 
-//문제와 풀이2
-//문제: "평점에 따른 영화 추천하기"
-//요청한 평점 이상의 영화를 찾아서 추천하는 프로그램을 작성하자. 어바웃타임 - 평점9
-//  토이 스토리 - 평점8
-//고질라 - 평점7
-// 평점 변수는 `double rating` 을 사용하세요. `if` 문을 활용해서 문제를 풀자.
+//문제: "학점에 따른 성취도 출력하기"
+//`String grade` 라는 문자열을 만들고, 학점에 따라 성취도를 출력하는 프로그램을 작성하자. 각 학점은 다음과 같은
+//성취도를 나타낸다.
+//"A": "탁월한 성과입니다!"
+//"B": "좋은 성과입니다!"
+//"C": "준수한 성과입니다!" "D": "향상이 필요합니다." "F": "불합격입니다."
+//나머지: "잘못된 학점입니다."
+//`switch` 문을 사용해서 문제를 해결하자.
 
-public class ScoreEx4 {
+public class ScoreEx5 {
     public static void main(String[] args) {
-        double rating = 7.1;
-        if (rating <= 9) {
-            System.out.println("'어바웃타임'을 추천합니다.");
-        }
-        if (rating <= 8) {
-            System.out.println("'토이 스토리'를 추천합니다.");
-        }
-        if (rating <= 7) {
-            System.out.println("'고질라'를 추천합니다.");
-        }
+        String grade = "A";
+
+        String result = switch (grade) {
+            case "A" -> "탁원한 성과입니다!";
+            case "B" -> "좋은 성과입니다!";
+            case "C" -> "준수한 성과입니다!";
+            case "D" -> "향상이 필요합니다.";
+            case "F" -> "불합격 입니다.";
+            default -> "잘못된 학점입니다.";
+        };
+        System.out.println(result);
+
+
     }
 
 }

@@ -1,21 +1,23 @@
 package Cond.ex;
 
-//문제: "환율 계산하기"
-//특정 금액을 미국 달러에서 한국 원으로 변환하는 프로그램을 작성하자. 환율은 1달러당 1300원이라고 가정하자. 다음
-//과 같은 기준을 따른다.
-//달러가 0미만이면: "잘못된 금액입니다."
-//달러가 0일 때: "환전할 금액이 없습니다."
-//달러가 0 초과일 때: "환전 금액은 (계산된 원화 금액)원입니다."
-//금액은 변수( `int dollar` )로 지정하고, 해당 변수를 기반으로 한국 원으로의 환전 금액을 출력하자.
+//문제와 풀이2
+//문제: "평점에 따른 영화 추천하기"
+//요청한 평점 이상의 영화를 찾아서 추천하는 프로그램을 작성하자. 어바웃타임 - 평점9
+//  토이 스토리 - 평점8
+//고질라 - 평점7
+// 평점 변수는 `double rating` 을 사용하세요. `if` 문을 활용해서 문제를 풀자.
 
-public class ScoreEx3 {
+public class ScoreEx4 {
     public static void main(String[] args) {
-        int dollar = 10;
-        if (dollar < 0) { System.out.println("잘못된 금액입니다.");
-        } else if (dollar == 0) { System.out.println("환전할 금액이 없습니다.");
-        } else {
-            int won = dollar * 1300;
-            System.out.println("환전 금액은 " + won + "원입니다.");
+        double rating = 7.1;
+        if (rating <= 9) {
+            System.out.println("'어바웃타임'을 추천합니다.");
+        }
+        if (rating <= 8) {
+            System.out.println("'토이 스토리'를 추천합니다.");
+        }
+        if (rating <= 7) {
+            System.out.println("'고질라'를 추천합니다.");
         }
     }
 
