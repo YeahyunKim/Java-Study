@@ -7,7 +7,7 @@ public class doWhile2 {
         do {
             System.out.println("현재 숫자는: " + i);
             i++;
-        } while (i < 3);
+        } while (i < 1);
 
     }
 }
