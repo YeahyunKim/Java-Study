@@ -5,8 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ref/InitData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/InitMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/BigData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/NullMain4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +52,10 @@
     "Application.MovieReview.executor": "Run",
     "Application.MovieReviewMain.executor": "Run",
     "Application.MoviewReviewMain.executor": "Run",
+    "Application.NullMain1.executor": "Run",
+    "Application.NullMain2.executor": "Run",
+    "Application.NullMain3.executor": "Run",
+    "Application.NullMain4.executor": "Run",
     "Application.ProductOrderMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
@@ -62,6 +69,9 @@
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "/Users/youihyonkim/Desktop/project/2024/java-grammer/Java-Study/java-basic/src/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -72,7 +82,7 @@
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InitMain">
+  <component name="RunManager" selected="Application.NullMain4">
     <configuration name="InitMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ref.InitMain" />
       <module name="java-basic" />
@@ -86,8 +96,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.Method1" />
+    <configuration name="NullMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -99,8 +109,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Method2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.Method2" />
+    <configuration name="NullMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -112,8 +122,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.MethodChange1" />
+    <configuration name="NullMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain3" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -125,8 +135,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ref.MethodChange2" />
+    <configuration name="NullMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.NullMain4" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
@@ -140,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NullMain4" />
+        <item itemvalue="Application.NullMain3" />
+        <item itemvalue="Application.NullMain2" />
+        <item itemvalue="Application.NullMain1" />
         <item itemvalue="Application.InitMain" />
-        <item itemvalue="Application.Method2" />
-        <item itemvalue="Application.Method1" />
-        <item itemvalue="Application.MethodChange2" />
-        <item itemvalue="Application.MethodChange1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
-      <workItem from="1712036555565" duration="19913000" />
+      <workItem from="1712036555565" duration="21119000" />
     </task>
     <servers />
   </component>
