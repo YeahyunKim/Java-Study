@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ref/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ref/VarChange2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ref/MethodChange2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +41,8 @@
     "Application.ClassStart4.executor": "Run",
     "Application.ClassStart5.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MethodChange1.executor": "Run",
+    "Application.MethodChange2.executor": "Run",
     "Application.MovieReview.executor": "Run",
     "Application.MovieReviewMain.executor": "Run",
     "Application.MoviewReviewMain.executor": "Run",
@@ -68,13 +69,13 @@
       <recent name="class1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VarChange2">
-    <configuration name="MovieReviewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.MovieReviewMain" />
+  <component name="RunManager" selected="Application.MethodChange2">
+    <configuration name="MethodChange1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.MethodChange1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MoviewReviewMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="class1.ex.MoviewReviewMain" />
+    <configuration name="MethodChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ref.MethodChange2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="class1.ex.*" />
+          <option name="PATTERN" value="ref.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodChange2" />
+        <item itemvalue="Application.MethodChange1" />
         <item itemvalue="Application.VarChange2" />
         <item itemvalue="Application.VarChange1" />
         <item itemvalue="Application.ProductOrderMain" />
-        <item itemvalue="Application.MovieReviewMain" />
-        <item itemvalue="Application.MoviewReviewMain" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
-      <workItem from="1712036555565" duration="15075000" />
+      <workItem from="1712036555565" duration="17430000" />
     </task>
     <servers />
   </component>
