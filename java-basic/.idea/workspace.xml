@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pack/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack/a/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/PackageMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/a/User2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pack/b/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,11 +96,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pack" />
+      <recent name="pack.a" />
       <recent name="construct" />
       <recent name="oop1" />
       <recent name="ref.ex" />
-      <recent name="ref" />
-      <recent name="class1.ex" />
     </key>
   </component>
   <component name="RunManager" selected="Application.pack.PackageMain1">
@@ -192,7 +194,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
-      <workItem from="1712036555565" duration="49654000" />
+      <workItem from="1712036555565" duration="50928000" />
     </task>
     <servers />
   </component>
