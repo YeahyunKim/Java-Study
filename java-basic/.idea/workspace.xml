@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/access/ex/CounterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/access/ex/MaxCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/access/ex/ShoppingCartMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +25,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -72,6 +77,7 @@
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ProductOrderMain3.executor": "Run",
     "Application.RectangleOopMain.executor": "Run",
+    "Application.ShoppingCartMain.executor": "Run",
     "Application.SpeakerMain.executor": "Run",
     "Application.ValueDataMain.executor": "Run",
     "Application.ValueObjectMain.executor": "Run",
@@ -81,6 +87,8 @@
     "Application.rectangleProceduralMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ToolWindowRun.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
@@ -104,7 +112,7 @@
       <recent name="ref.ex" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CounterMain">
+  <component name="RunManager" selected="Application.ShoppingCartMain">
     <configuration name="AccessInnerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="access.a.AccessInnerMain" />
       <module name="java-basic" />
@@ -157,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SpeakerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="access.SpeakerMain" />
+    <configuration name="ShoppingCartMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="access.ex.ShoppingCartMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="access.*" />
+          <option name="PATTERN" value="access.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -172,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShoppingCartMain" />
         <item itemvalue="Application.CounterMain" />
         <item itemvalue="Application.BankAccountMain" />
         <item itemvalue="Application.AccessOuterMain" />
         <item itemvalue="Application.AccessInnerMain" />
-        <item itemvalue="Application.SpeakerMain" />
       </list>
     </recent_temporary>
   </component>
@@ -196,7 +204,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
       <workItem from="1712036555565" duration="61731000" />
-      <workItem from="1713842534979" duration="2577000" />
+      <workItem from="1713842534979" duration="5881000" />
     </task>
     <servers />
   </component>
