@@ -5,8 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/final1/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/final1/FinalRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex/GasCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex2/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex2/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex2/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex2/GasCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex3/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex3/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex3/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex3/GasCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/ex3/HydrogenCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/overriding/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/overriding/CarMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/overriding/ElectricCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/overriding/GasCar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/extend1/overriding/HydrogenCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +57,7 @@
     "Application.AccountOopMain.executor": "Run",
     "Application.BankAccountMain.executor": "Run",
     "Application.BookMain.executor": "Run",
+    "Application.CarMain.executor": "Run",
     "Application.ClassStart1.executor": "Run",
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
@@ -58,6 +74,7 @@
     "Application.DataCountMain3.executor": "Run",
     "Application.DecoDataMain.executor": "Run",
     "Application.DecoMain1.executor": "Run",
+    "Application.ElectricCar.executor": "Run",
     "Application.FinalFieldMain.executor": "Run",
     "Application.InitMain.executor": "Run",
     "Application.JavaMemoryMain1.executor": "Run",
@@ -92,6 +109,9 @@
     "Application.ValueObjectMain.executor": "Run",
     "Application.VarChange1.executor": "Run",
     "Application.VarChange2.executor": "Run",
+    "Application.extend1.ex2.CarMain.executor": "Run",
+    "Application.extend1.ex3.CarMain.executor": "Run",
+    "Application.extend1.overriding.CarMain.executor": "Run",
     "Application.pack.PackageMain1.executor": "Run",
     "Application.rectangleProceduralMain.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -100,6 +120,7 @@
     "ToolWindowRun.ShowToolbar": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/youihyonkim/Desktop/project/2024/java-grammer/Java-Study/java-basic/src/extend1/overriding",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -113,6 +134,10 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/extend1/overriding" />
+      <recent name="$PROJECT_DIR$/src/extend1/ex3" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="final1" />
       <recent name="static2" />
@@ -121,13 +146,13 @@
       <recent name="pack.a" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ConstantMain2">
-    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
+  <component name="RunManager" selected="Application.extend1.overriding.CarMain">
+    <configuration name="CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extend1.ex.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="final1.*" />
+          <option name="PATTERN" value="extend1.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +160,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain2" />
+    <configuration name="ElectricCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extend1.ex2.ElectricCar" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="final1.*" />
+          <option name="PATTERN" value="extend1.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoDataMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoDataMain" />
+    <configuration name="extend1.ex2.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extend1.ex2.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="extend1.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FinalFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="final1.FinalFieldMain" />
+    <configuration name="extend1.ex3.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extend1.ex3.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="final1.*" />
+          <option name="PATTERN" value="extend1.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -174,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathArrayUtilsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.ex.MathArrayUtilsMain" />
+    <configuration name="extend1.overriding.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="extend1.overriding.CarMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.ex.*" />
+          <option name="PATTERN" value="extend1.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -189,11 +214,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConstantMain2" />
-        <item itemvalue="Application.ConstantMain1" />
-        <item itemvalue="Application.FinalFieldMain" />
-        <item itemvalue="Application.MathArrayUtilsMain" />
-        <item itemvalue="Application.DecoDataMain" />
+        <item itemvalue="Application.extend1.overriding.CarMain" />
+        <item itemvalue="Application.extend1.ex3.CarMain" />
+        <item itemvalue="Application.ElectricCar" />
+        <item itemvalue="Application.extend1.ex2.CarMain" />
+        <item itemvalue="Application.CarMain" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +238,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
       <workItem from="1712036555565" duration="61731000" />
-      <workItem from="1713842534979" duration="34177000" />
+      <workItem from="1713842534979" duration="38962000" />
     </task>
     <servers />
   </component>
