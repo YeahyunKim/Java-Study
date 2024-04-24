@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static2/ex/MathArrayUtilsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/Constant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/ConstantMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/ConstantMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/ConstructInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FieldInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FinalFieldMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/final1/FinalLocalMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +52,8 @@
     "Application.ClassStart3.executor": "Run",
     "Application.ClassStart4.executor": "Run",
     "Application.ClassStart5.executor": "Run",
+    "Application.ConstantMain1.executor": "Run",
+    "Application.ConstantMain2.executor": "Run",
     "Application.ConstructMain1.executor": "Run",
     "Application.ConstructMain2.executor": "Run",
     "Application.Counter.executor": "Run",
@@ -58,6 +63,7 @@
     "Application.DataCountMain3.executor": "Run",
     "Application.DecoDataMain.executor": "Run",
     "Application.DecoMain1.executor": "Run",
+    "Application.FinalFieldMain.executor": "Run",
     "Application.InitMain.executor": "Run",
     "Application.JavaMemoryMain1.executor": "Run",
     "Application.Main.executor": "Run",
@@ -113,20 +119,20 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="final1" />
       <recent name="static2" />
       <recent name="static1" />
       <recent name="pack" />
       <recent name="pack.a" />
-      <recent name="construct" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MathArrayUtilsMain">
-    <configuration name="DataCountMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static1.DataCountMain2" />
+  <component name="RunManager" selected="Application.ConstantMain2">
+    <configuration name="ConstantMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain1" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static1.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,12 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DataCountMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static1.DataCountMain3" />
+    <configuration name="ConstantMain2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.ConstantMain2" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static1.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoMain1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="static2.DecoMain1" />
+    <configuration name="FinalFieldMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="final1.FinalFieldMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="static2.*" />
+          <option name="PATTERN" value="final1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -188,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ConstantMain2" />
+        <item itemvalue="Application.ConstantMain1" />
+        <item itemvalue="Application.FinalFieldMain" />
         <item itemvalue="Application.MathArrayUtilsMain" />
         <item itemvalue="Application.DecoDataMain" />
-        <item itemvalue="Application.DecoMain1" />
-        <item itemvalue="Application.DataCountMain3" />
-        <item itemvalue="Application.DataCountMain2" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +218,7 @@
       <option name="presentableId" value="Default" />
       <updated>1712036554505</updated>
       <workItem from="1712036555565" duration="61731000" />
-      <workItem from="1713842534979" duration="29806000" />
+      <workItem from="1713842534979" duration="32884000" />
     </task>
     <servers />
   </component>
