@@ -5,11 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5117813-e17d-48e4-8e9d-fa0230c86802" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/extend1/ex/Album.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extend1/ex/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extend1/ex/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extend1/ex/Movie.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/extend1/ex/ShopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/CastingMain6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/basic/PolyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/OverridingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/poly/overriding/SecondChild.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +54,9 @@
     "Application.BankAccountMain.executor": "Run",
     "Application.BookMain.executor": "Run",
     "Application.CarMain.executor": "Run",
+    "Application.CastingMain3.executor": "Run",
+    "Application.CastingMain4.executor": "Run",
+    "Application.CastingMain5.executor": "Run",
     "Application.ClassStart1.executor": "Run",
     "Application.ClassStart2.executor": "Run",
     "Application.ClassStart3.executor": "Run",
@@ -86,7 +97,9 @@
     "Application.NullMain2.executor": "Run",
     "Application.NullMain3.executor": "Run",
     "Application.NullMain4.executor": "Run",
+    "Application.OverridingMain.executor": "Run",
     "Application.PackageMain1.executor": "Run",
+    "Application.PolyMain.executor": "Run",
     "Application.ProductOrderMain.executor": "Run",
     "Application.ProductOrderMain2.executor": "Run",
     "Application.ProductOrderMain3.executor": "Run",
@@ -132,14 +145,53 @@
       <recent name="$PROJECT_DIR$/src/extend1/ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="poly.basic" />
       <recent name="extend1.super2" />
       <recent name="final1" />
       <recent name="static2" />
       <recent name="static1" />
-      <recent name="pack" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopMain">
+  <component name="RunManager" selected="Application.OverridingMain">
+    <configuration name="CastingMain3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain3" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastingMain4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain4" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CastingMain5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.CastingMain5" />
+      <module name="java-basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="poly.basic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ElectricCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extend1.ex2.ElectricCar" />
       <module name="java-basic" />
@@ -153,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend1.ex.ShopMain" />
+    <configuration name="OverridingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.overriding.OverridingMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extend1.ex.*" />
+          <option name="PATTERN" value="poly.overriding.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,25 +218,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Super1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend1.super1.Super1Main" />
+    <configuration name="PolyMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="poly.basic.PolyMain" />
       <module name="java-basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="extend1.super1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Super2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend1.super2.Super2Main" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extend1.super2.*" />
+          <option name="PATTERN" value="poly.basic.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -231,32 +270,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="extend1.overriding.CarMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend1.overriding.CarMain" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extend1.overriding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="extend1.overriding.ElectricCar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="extend1.overriding.ElectricCar" />
-      <module name="java-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="extend1.overriding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="extend1.super2.test" />
       <module name="java-basic" />
@@ -272,11 +285,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShopMain" />
-        <item itemvalue="Application.Super2Main" />
-        <item itemvalue="Application.Super1Main" />
-        <item itemvalue="Application.extend1.overriding.CarMain" />
-        <item itemvalue="Application.extend1.overriding.ElectricCar" />
+        <item itemvalue="Application.OverridingMain" />
+        <item itemvalue="Application.CastingMain5" />
+        <item itemvalue="Application.CastingMain4" />
+        <item itemvalue="Application.CastingMain3" />
+        <item itemvalue="Application.PolyMain" />
       </list>
     </recent_temporary>
   </component>
@@ -297,7 +310,7 @@
       <updated>1712036554505</updated>
       <workItem from="1712036555565" duration="61731000" />
       <workItem from="1713842534979" duration="43840000" />
-      <workItem from="1714527683826" duration="4398000" />
+      <workItem from="1714527683826" duration="17970000" />
     </task>
     <servers />
   </component>
