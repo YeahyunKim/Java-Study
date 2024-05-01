@@ -11,8 +11,4 @@ public class ElectricCar extends Car { //슈퍼클래스 Car에서 상속받는 
     public void charge() {
         System.out.println("충전합니다.");
     }
-
-    public static void main(String[] args) {
-        Car.move();
-    }
 }

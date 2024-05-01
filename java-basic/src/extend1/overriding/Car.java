@@ -1,7 +1,7 @@
 package extend1.overriding;
 
-public class Car {
-    public static void move() {
+public abstract class Car {
+    public void move() {
         System.out.println("차를 이동합니다.");
     }
 
